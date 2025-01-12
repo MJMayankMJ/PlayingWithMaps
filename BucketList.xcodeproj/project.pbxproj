@@ -29,9 +29,22 @@
 		860555262D1C2C7C00BC4AA9 /* BucketListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BucketListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		86E2B09E2D25754A00CBBC93 /* Exceptions for "BucketList" folder in "BucketList" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8605550B2D1C2C7B00BC4AA9 /* BucketList */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8605550E2D1C2C7B00BC4AA9 /* BucketList */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				86E2B09E2D25754A00CBBC93 /* Exceptions for "BucketList" folder in "BucketList" target */,
+			);
 			path = BucketList;
 			sourceTree = "<group>";
 		};
@@ -398,6 +411,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BucketList/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock the locations you saved";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,6 +441,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BucketList/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock the locations you saved";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
